@@ -1,1 +1,0 @@
-import{V as t,au as o}from"./index-4p2tsjnZ.js";const e=({from:e,to:s}={},a={})=>t({url:`/weights${o({from:e,to:s})}`,...a}),s=(o,{weightKg:e,note:s})=>t({url:`/weights/${o}`,method:"PUT",data:{weightKg:e,note:s||null}}),a=o=>t({url:`/weights/${o}`,method:"DELETE"});export{a as d,e as l,s};
