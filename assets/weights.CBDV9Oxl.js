@@ -1,0 +1,1 @@
+import{N as t,O as o}from"./index-DPSv3ABM.js";const e=({from:e,to:s}={},r={})=>t({url:`/weights${o({from:e,to:s})}`,...r}),s=(o,{weightKg:e,note:s})=>t({url:`/weights/${o}`,method:"PUT",data:{weightKg:e,note:s||null}}),r=o=>t({url:`/weights/${o}`,method:"DELETE"});export{r as d,e as l,s};
