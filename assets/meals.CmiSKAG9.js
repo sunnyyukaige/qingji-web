@@ -1,1 +1,0 @@
-import{N as a,O as s}from"./index-DPSv3ABM.js";const e=(e,l={})=>a({url:`/meals${s({date:e})}`,...l}),l=s=>a({url:"/meals",method:"POST",data:s}),m=s=>a({url:`/meals/${s}`,method:"DELETE"});export{l as a,m as d,e as l};
