@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <link rel="stylesheet" href="./assets/uni.9658b3d4.css">
+
+    <meta charset="UTF-8" />
+    <script>
+      var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+        CSS.supports('top: constant(a)'))
+      document.write(
+        '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+        (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+    </script>
+    <title>轻记</title>
+    <!-- Add to Home Screen: full-screen app with its own icon (iOS Safari + Android Chrome) -->
+    <link rel="manifest" href="static/pwa/manifest.webmanifest" />
+    <link rel="icon" type="image/png" href="static/pwa/favicon-32.png" />
+    <link rel="apple-touch-icon" href="static/pwa/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="轻记" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="theme-color" content="#F7F7F5" />
+    <!--preload-links-->
+    <!--app-context-->
+    <script type="module" crossorigin src="./assets/index-YYpbXGpP.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BDNl7DNp.css">
+  </head>
+  <body>
+    <div id="app"><!--app-html--></div>
+    <script>if ('serviceWorker' in navigator) addEventListener('load', function () { navigator.serviceWorker.register('./sw.js') })</script>
+  </body>
+</html>

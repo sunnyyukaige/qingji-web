@@ -1,0 +1,1 @@
+import{K as t,L as o}from"./index-YYpbXGpP.js";const e=({from:e,to:s}={},r={})=>t({url:`/weights${o({from:e,to:s})}`,...r}),s=(o,{weightKg:e,note:s})=>t({url:`/weights/${o}`,method:"PUT",data:{weightKg:e,note:s||null}}),r=o=>t({url:`/weights/${o}`,method:"DELETE"});export{r as d,e as l,s};
