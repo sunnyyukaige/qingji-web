@@ -1,1 +1,0 @@
-import{V as a,au as s}from"./index-CZo_7pAe.js";const e=(e,l={})=>a({url:`/meals${s({date:e})}`,...l}),l=s=>a({url:"/meals",method:"POST",data:s}),m=s=>a({url:`/meals/${s}`,method:"DELETE"});export{l as a,m as d,e as l};
