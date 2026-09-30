@@ -1,1 +1,0 @@
-import{V as a,au as s}from"./index-BDSCUynK.js";const e=(e,t={})=>a({url:`/meals${s({date:e})}`,...t}),t=s=>a({url:"/meals",method:"POST",data:s}),l=s=>a({url:"/meals/batch",method:"POST",data:s}),m=s=>a({url:`/meals/${s}`,method:"DELETE"});export{t as a,l as b,m as d,e as l};
